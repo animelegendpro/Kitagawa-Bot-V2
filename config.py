@@ -32,7 +32,7 @@ FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
 
 
-SECONDS = int(os.getenv("SECONDS", "60000")) # auto delete in seconds
+SECONDS = int(os.getenv("SECONDS", "86400")) # auto delete in seconds
 
 
 
